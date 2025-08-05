@@ -22,7 +22,7 @@ Este é um projeto simples de um Conversor de Moedas que permite converter valor
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/conversor-de-moedas.git
+   https://github.com/wallessonf/conversodemoedas.git
    ```
 
 2. Abra o arquivo `index.html` no navegador.
@@ -49,6 +49,3 @@ Wallesson Fernando
 
 ---
 
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
