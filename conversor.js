@@ -55,12 +55,12 @@ document
     };
 
     resultadoTexto.style.display = "block";
-    resultadoTexto.innerText = `Resultado: ${
-      simbolos[paraMoeda]
-    } ${resultado.toLocaleString("pt-BR", {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
-    })}`;
+    resultadoTexto.innerHTML = `Resultado: ${
+  simbolos[paraMoeda]
+}&nbsp;${resultado.toLocaleString("pt-BR", {
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2,
+})}`;
 
     document.getElementById("valor").focus();
   });
