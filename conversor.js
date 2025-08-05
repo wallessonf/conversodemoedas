@@ -27,6 +27,7 @@ async function converter(valor, deMoeda, paraMoeda) {
   const resultado = valorEmReais / cotacoes[paraMoeda];
 
   return resultado;
+
 }
 
 document
@@ -53,10 +54,13 @@ document
       BRL: "R$",
     };
 
+    resultadoTexto.style.display = "block";
     resultadoTexto.innerText = `Resultado: ${
       simbolos[paraMoeda]
     } ${resultado.toLocaleString("pt-BR", {
       minimumFractionDigits: 2,
       maximumFractionDigits: 2,
     })}`;
+
+    document.getElementById("valor").focus();
   });
